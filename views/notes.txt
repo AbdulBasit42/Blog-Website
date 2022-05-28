@@ -1,0 +1,4 @@
+app.get("/news/:topic",(req,res)=>{
+    console.log(req.params.topic)
+})
+// lodash js library..lower case n hyphen related
